@@ -1,0 +1,24 @@
+{
+  "name": "ng2-electron",
+  "version": "1.0.0",
+  "description": "Create a desktop app with Angular 2 and Electron.",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --profile --colors --display-error-details --display-cached",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-beta.21",
+    "es6-shim": "^0.35.3",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "electron": "^1.6.2",
+    "ts-loader": "^2.0.3",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
