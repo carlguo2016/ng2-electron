@@ -16,7 +16,7 @@
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
-    "electron": "^1.6.2",
+    "electron": "^9.1.0",
     "ts-loader": "^2.0.3",
     "webpack": "^2.3.3",
     "webpack-dev-server": "^2.4.2"
